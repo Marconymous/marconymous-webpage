@@ -1,0 +1,18 @@
+.sm {
+  &__container {
+    display: flex;
+    text-align: center;
+
+    & .sm__img {
+      position: relative;
+      width: 5rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+div {
+  .flex {
+    display: flex;
+  }
+}
